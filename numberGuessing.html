@@ -15,6 +15,9 @@
         guess = Math.floor(Math.random() * 100);
         guessNumber++;
       }
+      document.getElementById("root").innerHTML = `
+      <h2>I guessed it!</h2>
+      <br>It only took me ${guessNumber} guesses!`;
     </script>
   </body>
 </html>
